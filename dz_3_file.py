@@ -16,7 +16,7 @@ with open('dz_3.txt', 'w') as file:
     for id, i in enumerate(sorted(name_txt)):
         file.write(name_txt[i]+'\n')
         file.write(str(i)+'\n')
-        file.write(''.join(list_read[id][0:])+'\n')
+        file.write(''.join(list_read[id])+'\n')
 
 
 
